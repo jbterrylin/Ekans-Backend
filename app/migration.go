@@ -30,7 +30,7 @@ func RegisterModels(db *pg.DB) error {
 	}
 
 	count, _ := db.Model((*model.User)(nil)).Count()
-	if count > 0 {
+	if count == 0 {
 		user := new(model.User)
 		user.Name = "Wang Lin Lee"
 		hashPassword, _ := bcrypt.GenerateFromPassword([]byte("1"), bcrypt.MinCost)

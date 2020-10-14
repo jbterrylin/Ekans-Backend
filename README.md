@@ -38,8 +38,6 @@ dunno got what thing to explain leh hahahaha
   
 Future enchancement:
   - clean redundant code
-  - do some array function
-  - clean redundant code
   - clear idiot logic
   - parralel api calling (seperate to few useEffect)
   - form should be component

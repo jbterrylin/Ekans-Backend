@@ -39,12 +39,12 @@ dunno got what thing to explain leh hahahaha
 Future enchancement:
   - clean redundant code
   - do some array function
-  - backend should pass needed data
-  - should not assume all getted data and is correct
-  - should put if _, err ： to all orm
-  - clear declare on json and oscrud
-  - change login and register to crud
-  - update oscrud to get more knowledge
+  - clean redundant code
+  - clear idiot logic
+  - parralel api calling (seperate to few useEffect)
+  - form should be component
+  - seperate loading and no data
   - juz remember these, will have more when enchancement
 
 but i don't think i will repair it lah hahahahha
+this is 2nd time to write this... 1st time lost when commit... i think almost same bah
